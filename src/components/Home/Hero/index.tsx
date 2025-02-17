@@ -3,7 +3,7 @@ import Image from 'next/image';
 import React, { useState } from 'react';
 import { Icon } from "@iconify/react/dist/iconify.js";
 import Link from 'next/link';
-import img1 from '../../../../public/images/banner/ai.png'
+import img1 from '/images/banner/ai.png'
 const Banner = () => {
   const [isOpen, setOpen] = useState(false)
 
