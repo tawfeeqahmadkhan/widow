@@ -3,7 +3,6 @@ import Image from 'next/image';
 import React, { useState } from 'react';
 import { Icon } from "@iconify/react/dist/iconify.js";
 import Link from 'next/link';
-import img1 from '/images/banner/ai.png'
 const Banner = () => {
   const [isOpen, setOpen] = useState(false)
 
@@ -33,7 +32,7 @@ const Banner = () => {
               </div>
             </div>
             <div className='col-span-5'>
-              <Image src={img1||"/images/Banner/ai.png"} alt="nothing" width={700} height={760} className='rounded-lg' />
+              <Image src="/images/Banner/aiImage.png" alt="nothing" width={700} height={760} className='rounded-lg' />
             </div>
           </div>
         </div>
