@@ -32,7 +32,7 @@ const Banner = () => {
               </div>
             </div>
             <div className='col-span-5'>
-              <Image src="/images/Banner/aiImage.png" alt="nothing" width={700} height={760} className='rounded-lg' />
+              <Image src="/aiImage.png" alt="nothing" width={700} height={760} className='rounded-lg' />
             </div>
           </div>
         </div>
