@@ -23,7 +23,7 @@ const products: ProductType[] = [
 
 const socialLinks: Social[] = [
   { imgsrc: '/images/footer/telegram.png', href: "https://t.me/WidowAI" },
-  { imgsrc: '/images/footer/x.png', href: "https://dribble.com/" },
+  { imgsrc: '/images/footer/x.png', href: "https://x.com/Widow_AI?t=iO7Q9L4QzCnNT4JhcARqIA&s=09" },
 
 ]
 
@@ -68,7 +68,10 @@ const footer = () => {
               <Image src={'/images/footer/email.svg'} alt="email-icon" width={20} height={20} />info@widowai.tech
             </h4>
             <h4 className="text-white/60 text-sm font-normal mb-6 flex gap-2">
-              <Image src={'/images/footer/address.svg'} alt="address-icon" width={20} height={20} />India, Jammu & Kashmir
+              <Image src={'/images/footer/email.svg'} alt="email-icon" width={20} height={20} />widowai.foundation@gmail.com
+            </h4>
+            <h4 className="text-white/60 text-sm font-normal mb-6 flex gap-2">
+              <Image src={'/images/footer/address.svg'} alt="address-icon" width={20} height={20} />United States of America
             </h4>
           </div>
         </div>

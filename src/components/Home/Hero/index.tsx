@@ -25,9 +25,12 @@ const Banner = () => {
               Widow AI The Next<br />-Generation  AI Application Creator 
               </h1>
               <p className='text-white md:text-sm font-normal mb-10 md:text-start text-center'>Widow AI is a revolutionary artificial intelligence platform designed to automate and streamline the creation of applications, generate accurate answers, produce high-quality videos, design graphics, and much more. With the ability to process and analyze up to 100,000 words, Widow AI is poised to transform industries by providing unparalleled efficiency, creativity, and precision. This white paper outlines the core functionalities, phases of development, and the transformative potential of Widow AI.</p>
-              <div className='flex align-middle justify-center md:justify-start'>
+              <div className='flex align-middle justify-center md:justify-start flex -row'>
                 <Link href={'https://t.me/WidowAI'}>
-                <button className='text-xl font-semibold text-white py-4 px-6 lg:px-12 bg-gradient-to-r from-primary to-secondary hover:from-secondary hover:to-primary rounded-xl mr-6'>Join Telegram</button>
+                <button className='text-xl font-semibold text-white py-4 px-4 lg:px-12 bg-gradient-to-r from-primary to-secondary hover:from-secondary hover:to-primary rounded-xl mr-6'>Join Telegram</button>
+                </Link>
+                <Link href={'https://x.com/Widow_AI?t=iO7Q9L4QzCnNT4JhcARqIA&s=09'}>
+                <button className='text-xl font-semibold text-white py-4 px-4 lg:px-12 bg-gradient-to-r from-primary to-secondary hover:from-secondary hover:to-primary rounded-xl mr-6'>Join  X </button>
                 </Link>
               </div>
             </div>
